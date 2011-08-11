@@ -7,9 +7,8 @@ Gem::Specification.new do |s|
   s.version     = Metaclass::VERSION
   s.authors     = ["James Mead"]
   s.email       = ["james@floehopper.org"]
-  s.homepage    = ""
-  s.summary     = %q{TODO: Write a gem summary}
-  s.description = %q{TODO: Write a gem description}
+  s.homepage    = "http://github.com/floehopper/metaclass"
+  s.summary     = %q{Adds a metaclass method to all Ruby objects}
 
   s.rubyforge_project = "metaclass"
 

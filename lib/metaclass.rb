@@ -1,5 +1,5 @@
-require "metaclass/version"
-
 module Metaclass
-  # Your code goes here...
 end
+
+require "metaclass/version"
+require "metaclass/object_methods"
