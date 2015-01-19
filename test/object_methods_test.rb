@@ -1,6 +1,6 @@
 require "test_helper"
 
-class ObjectMethodsTest < Test::Unit::TestCase
+class ObjectMethodsTest < Minitest::Test
 
   def setup
     @klass = Class.new
@@ -11,7 +11,7 @@ class ObjectMethodsTest < Test::Unit::TestCase
     assert_raises(NoMethodError) { instance.success? }
 
     instance.__metaclass__.class_eval { def success?; true; end }
-    assert_nothing_raised(NoMethodError) { assert instance.success? }
+    assert instance.success?
 
     another_instance = @klass.new
     assert_raises(NoMethodError) { another_instance.success? }
