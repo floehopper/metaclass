@@ -1,3 +1,5 @@
+## Metaclass [![Build Status](https://travis-ci.org/floehopper/metaclass.svg?branch=master)](https://travis-ci.org/floehopper/metaclass) [![Gem Version](https://badge.fury.io/rb/metaclass.png)](http://badge.fury.io/rb/metaclass)
+
 Adds a `__metaclass__` method to all Ruby objects.
 
 ## Motivations
